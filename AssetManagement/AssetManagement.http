@@ -1,0 +1,6 @@
+@AssetManagement_HostAddress = http://localhost:5071
+
+GET {{AssetManagement_HostAddress}}/assests/
+Accept: application/json
+
+###
