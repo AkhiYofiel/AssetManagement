@@ -39,7 +39,10 @@ All endpoints require a JWT bearer token. There is no login endpoint yet, so gen
 The API exposes CRUD endpoints for assets, employees, software licenses, and statuses. Assets include warranty card data and assigned licenses in the responses.
 
 ## Future Implementation
+- Add Logging and monitoring with Serilog and Application Insights.
 - Add an authentication endpoint to issue JWTs.
 - Rotate keys and move secrets to a managed vault (e.g., Azure Key Vault).
-- Add refresh tokens and role management.   
+- Add refresh tokens and role management. 
+- Implement pagination and filtering for list endpoints.
+- Implement caching for frequently accessed data (e.g., asset statuses).
    
